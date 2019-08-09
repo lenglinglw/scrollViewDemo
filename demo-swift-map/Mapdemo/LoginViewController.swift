@@ -143,6 +143,7 @@ class LoginViewController: BaseViewController {
         
         alert.addTextField(configurationHandler: { (textField: UITextField!) -> Void in
             textField.placeholder = "请输入手机号"
+            textField.keyboardType = .phonePad
             // 添加监听代码，监听文本框变化时要做的操作
             NotificationCenter.default.addObserver(self, selector: #selector(self.alertTextFieldDidChange), name: UITextField.textDidChangeNotification, object: textField)
         })
