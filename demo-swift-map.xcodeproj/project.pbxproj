@@ -15,12 +15,12 @@
 		4F9140D222FD1D2C00B2B16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F9140D022FD1D2C00B2B16C /* LaunchScreen.storyboard */; };
 		4F9140DD22FD1D2D00B2B16C /* demo_swift_mapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9140DC22FD1D2D00B2B16C /* demo_swift_mapTests.swift */; };
 		4F9140E822FD1D2D00B2B16C /* demo_swift_mapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9140E722FD1D2D00B2B16C /* demo_swift_mapUITests.swift */; };
-		4F91410222FD45FC00B2B16C /* LocalDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9140FF22FD45FC00B2B16C /* LocalDataStorage.swift */; };
-		4F91410322FD45FC00B2B16C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91410022FD45FC00B2B16C /* MapViewController.swift */; };
-		4F91410422FD45FC00B2B16C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91410122FD45FC00B2B16C /* LoginViewController.swift */; };
 		4F91410A22FD655000B2B16C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91410822FD655000B2B16C /* BaseViewController.swift */; };
 		4F91410B22FD655000B2B16C /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91410922FD655000B2B16C /* BaseNavigationController.swift */; };
 		4F91411022FD69FC00B2B16C /* CBToast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91410F22FD69FB00B2B16C /* CBToast.swift */; };
+		4F91412222FD770100B2B16C /* LocalDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91411F22FD770100B2B16C /* LocalDataStorage.swift */; };
+		4F91412322FD770100B2B16C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91412022FD770100B2B16C /* MapViewController.swift */; };
+		4F91412422FD770100B2B16C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F91412122FD770100B2B16C /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +54,12 @@
 		4F9140E322FD1D2D00B2B16C /* demo-swift-mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-swift-mapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F9140E722FD1D2D00B2B16C /* demo_swift_mapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demo_swift_mapUITests.swift; sourceTree = "<group>"; };
 		4F9140E922FD1D2D00B2B16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4F9140FF22FD45FC00B2B16C /* LocalDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataStorage.swift; sourceTree = "<group>"; };
-		4F91410022FD45FC00B2B16C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		4F91410122FD45FC00B2B16C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4F91410822FD655000B2B16C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4F91410922FD655000B2B16C /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		4F91410F22FD69FB00B2B16C /* CBToast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBToast.swift; sourceTree = "<group>"; };
+		4F91411F22FD770100B2B16C /* LocalDataStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalDataStorage.swift; sourceTree = "<group>"; };
+		4F91412022FD770100B2B16C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4F91412122FD770100B2B16C /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B9833D9538C1F854C4CCF160 /* Pods_demo_swift_map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_demo_swift_map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2B552ADC2090EC558388A9E /* Pods-demo-swift-map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-swift-map.debug.xcconfig"; path = "Target Support Files/Pods-demo-swift-map/Pods-demo-swift-map.debug.xcconfig"; sourceTree = "<group>"; };
 		F8374CA2AE3347F2B9D3A5DE /* Pods-demo-swift-map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-demo-swift-map.release.xcconfig"; path = "Target Support Files/Pods-demo-swift-map/Pods-demo-swift-map.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,9 +116,9 @@
 		4F9140C622FD1D2C00B2B16C /* demo-swift-map */ = {
 			isa = PBXGroup;
 			children = (
+				4F91411E22FD770100B2B16C /* Mapdemo */,
 				4F91410E22FD69FB00B2B16C /* Toast */,
 				4F91410722FD655000B2B16C /* BaseViewController */,
-				4F9140FE22FD45FC00B2B16C /* Mapdemo */,
 				4F9140C722FD1D2C00B2B16C /* AppDelegate.swift */,
 				4F9140C922FD1D2C00B2B16C /* ViewController.swift */,
 				4F9140CB22FD1D2C00B2B16C /* Main.storyboard */,
@@ -147,17 +147,6 @@
 			path = "demo-swift-mapUITests";
 			sourceTree = "<group>";
 		};
-		4F9140FE22FD45FC00B2B16C /* Mapdemo */ = {
-			isa = PBXGroup;
-			children = (
-				4F9140FF22FD45FC00B2B16C /* LocalDataStorage.swift */,
-				4F91410022FD45FC00B2B16C /* MapViewController.swift */,
-				4F91410122FD45FC00B2B16C /* LoginViewController.swift */,
-			);
-			name = Mapdemo;
-			path = ../../../../../MusicPlayer/MusicPlayer/Class/Mapdemo;
-			sourceTree = "<group>";
-		};
 		4F91410722FD655000B2B16C /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,6 +162,16 @@
 				4F91410F22FD69FB00B2B16C /* CBToast.swift */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		4F91411E22FD770100B2B16C /* Mapdemo */ = {
+			isa = PBXGroup;
+			children = (
+				4F91411F22FD770100B2B16C /* LocalDataStorage.swift */,
+				4F91412022FD770100B2B16C /* MapViewController.swift */,
+				4F91412122FD770100B2B16C /* LoginViewController.swift */,
+			);
+			path = Mapdemo;
 			sourceTree = "<group>";
 		};
 		55834EEE9692048ACDF09A6F /* Frameworks */ = {
@@ -390,10 +389,10 @@
 				4F91410B22FD655000B2B16C /* BaseNavigationController.swift in Sources */,
 				4F9140CA22FD1D2C00B2B16C /* ViewController.swift in Sources */,
 				4F9140C822FD1D2C00B2B16C /* AppDelegate.swift in Sources */,
-				4F91410222FD45FC00B2B16C /* LocalDataStorage.swift in Sources */,
-				4F91410422FD45FC00B2B16C /* LoginViewController.swift in Sources */,
-				4F91410322FD45FC00B2B16C /* MapViewController.swift in Sources */,
+				4F91412422FD770100B2B16C /* LoginViewController.swift in Sources */,
 				4F91410A22FD655000B2B16C /* BaseViewController.swift in Sources */,
+				4F91412222FD770100B2B16C /* LocalDataStorage.swift in Sources */,
+				4F91412322FD770100B2B16C /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
