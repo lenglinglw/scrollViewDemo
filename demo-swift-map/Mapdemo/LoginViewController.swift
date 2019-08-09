@@ -14,6 +14,7 @@ class LoginViewController: BaseViewController {
     let spaceViewTwo = UIView.init()
     let pswTextFiled: UITextField = UITextField.init()
     let btn: UIButton = UIButton.init(type: .custom)
+    var tryNum: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -121,10 +122,15 @@ class LoginViewController: BaseViewController {
         } else {
             guard pswTextFiled.text == (LocalDataStorage.getNormalData(key: "login") as! String) else {
                 CBToast.showToastAction(message: "请输入正确的密码")
+                tryNum += 1
+                if tryNum > 4 {
+                    CBToast.showToastAction(message: "您以连续失败多次,请尝试重置密码")
+                }
                 return
             }
         }
         print("跳转到地图页面")
+        tryNum = 0
         navigationController?.pushViewController(MapViewController.init(), animated: true)
         
     }
