@@ -92,6 +92,7 @@ class LoginViewController: BaseViewController {
             self.title = "设置密码"
             phoneTextField.isHidden = false
             spaceViewTwo.isHidden   = false
+            navigationItem.rightBarButtonItem = nil
         } else {
             pswTextFiled.placeholder = "请输入密码"
             self.title = "输入密码"
