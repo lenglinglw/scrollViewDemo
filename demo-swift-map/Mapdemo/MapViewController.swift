@@ -28,17 +28,13 @@ class MapViewController: BaseViewController {
     
     private func setUI() {
         scrollView.frame = self.view.bounds
-        scrollView.contentSize = self.view.bounds.size
         scrollView.delegate = self
         scrollView.minimumZoomScale = 0.75
         scrollView.maximumZoomScale = view.bounds.height / view.bounds.width
         scrollView.backgroundColor = UIColor.black
         view.addSubview(scrollView)
-        
-        mapImageView.frame = CGRect(x: 0, y: 0, width: scrollView.frame.width, height: scrollView.frame.height)
-        mapImageView.center = scrollView.center
-        view.addSubview(mapImageView)
-        
+        scrollView.contentSize = mapImageView.bounds.size
+        scrollView.addSubview(mapImageView)
     }
     
     private func addNot() {
@@ -56,22 +52,22 @@ extension MapViewController: UIScrollViewDelegate {
         return mapImageView
     }
     func scrollViewDidZoom(_ scrollView: UIScrollView) {
-        let targetView = viewForZooming(in: scrollView)
-        guard targetView != nil else {
-            return
-        }
-        let widthIsSmall = (targetView?.bounds.width)! < scrollView.bounds.width
-        let heightIsSmall = (targetView?.bounds.height)! < scrollView.bounds.height
-        if (widthIsSmall) {
-            
-        } else {
-            targetView?.center.x = scrollView.center.x
-        }
-        if (heightIsSmall) {
-            
-        } else {
-            targetView?.center.y = scrollView.center.y
-        }
+//        let targetView = viewForZooming(in: scrollView)
+//        guard targetView != nil else {
+//            return
+//        }
+//        let widthIsSmall = (targetView?.bounds.width)! < scrollView.bounds.width
+//        let heightIsSmall = (targetView?.bounds.height)! < scrollView.bounds.height
+//        if (widthIsSmall) {
+//            
+//        } else {
+//            targetView?.center.x = scrollView.center.x
+//        }
+//        if (heightIsSmall) {
+//            
+//        } else {
+//            targetView?.center.y = scrollView.center.y
+//        }
         
     }
     
